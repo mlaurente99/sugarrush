@@ -1,0 +1,162 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+}
+
+body,html {
+	height: 100%;
+}
+
+.hero-image {
+	background-image: url(../images/hero_cupcakes2.jpg);
+	width: 100%;
+	height: 80vh;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	clear: both;
+}
+
+.hero-text {
+	text-align: center;
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%, -50%)
+}
+
+nav {
+	display: block;
+	color: #508582;
+	white-space: nowrap;
+	font-family: helvetica neue;
+	font-size: 1.2em;
+	float: right;
+}
+
+nav a {
+	text-decoration: none;
+	display: inline-block;
+	color: #508582;
+	white-space: nowrap;
+	font-family: helvetica neue;
+	font-size: 1.2em;
+	float: right;
+	padding: 20px;
+}
+
+
+
+.contact {
+	background-color: #F2DFE1;
+	font-family: helvetica neue;
+	font-size: 1.2em;
+	text-align: center;
+	padding: 50px;
+	clear: both;
+}
+
+
+header {
+	padding-top: 10px;
+}
+
+article {
+	background-color: white;
+}
+
+footer {
+	background-color: #E3BB5D;
+	text-align: right;
+	color: white;
+	padding: 20px;
+	clear: both;
+}
+
+body {
+	background-color: white;
+}
+
+h1 {
+	padding-left: 10px;
+	color: #E3BB5D;
+	font-family: 'Playfair Display', bold;
+	font-size: 48px;
+	float: left;
+}
+
+h2 {
+	color: #D48197;
+	text-align: center;
+	font-family: helvetica neue, light;
+	font-size: 2em;
+	width: 100%;
+	clear: both;
+}
+
+h3 {
+	color: #508582;
+	text-align: center;
+	font-size: 2em;
+}
+
+p {
+	color: gray;
+	text-align: center;
+	font-family: helvetica neue, light;
+	line-height: 2em;
+	padding: 20px;
+	clear: both;
+}
+
+#products {
+	width: 100%;
+	margin: 2em;
+}
+
+.column {
+ 	float: left;
+	width: 30%;
+	margin: 1em;
+	text-align: center;
+	border: 0 none;
+	display: inline;
+	max-width: 30%;
+}
+
+
+img {
+	float: none;
+}
+
+ul {
+	text-align: center;
+	list-style-type: none;
+	padding: 40px;
+	float: left;
+}
+
+div {
+	text-align: center;
+	padding: 50px;
+}
+
+.textcontact {
+	width: 100;
+	display: block;
+}
+
+@media only screen and (max-width : 768px) {
+	.column img {
+		display: block;
+	}
+
+}

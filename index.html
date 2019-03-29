@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<title>SUGAR RUSH</title>
+</head>
+<body>
+	<header>
+		<h1>SUGAR RUSH</h1>
+		<nav>
+			<a href="#email">contact</a>
+			<a href="#products">products</a>
+			
+		</nav>
+	</header>
+
+	<div class="hero-image">
+		<div class="hero-text">
+			<h2>We bake custom cakes and baked goods for any occasion</h2>
+		</div>
+	</div>
+
+	<section id="products">
+		<h2>Based in NJ, we sell custom baked goods at a very reasonable price. We bake cakes, cupcakes and other goodies for all occassions!</h2>
+		<p>Check out some products  that we have made below:</p>
+		<div class="column">
+			<h3>Cakes</h3>
+			<img src="images/cakes.jpg" alt="white cake" title="sugar rush white cake">
+		</div>
+		<div class="column"><h3>Cupcakes</h3>
+			<img src="images/cupcakes.jpg"
+			alt="sugar cupcake with pink icing"
+	        title="sugar rush sugar cupcakes">
+	        </div>
+
+			<div class="column"><h3>Donuts</h3>
+			<img src="images/donuts.jpg"
+			alt="donuts"
+	    	title="sugar rush donuts and other baked goods">
+	    	</div>
+
+			<p>Would you like to see more? Visit our <a href="https://www.instagram.comsugar.rushhh/?utm_source=ig_profile_share&igshid=17h5b35orzs0p">instagram account</a></p>
+		</section>
+
+	<section id="email" class="contact">
+			<div class="textcontact">
+				<h2>Do you have an upcoming occassion that you need our services? Email us: indulge@gmail.com</h2>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<p>2019 Sugar Rush</p>	
+	</footer>
+	<script>
+		jQuery(function() {
+		  $('a[href*=#]:not([href=#])').click(function() {
+		    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+		      var target = $(this.hash);
+		      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+		      if (target.length) {
+			$('html,body').animate({
+			  scrollTop: target.offset().top
+			}, 1000);
+			return false;
+		      }
+		    }
+		  });
+		});
+	</script>
+</body>
+</html>
